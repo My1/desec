@@ -9,7 +9,7 @@ Host: desec.io
 Accept: */*
 Authorization: Token 0123456789abcdef
 Content-Type: application/json
-Content-Length: 61
+Content-Length: xy
 
 {"type":"AAAA","records":["::1"],"ttl":60}
 ```
@@ -67,7 +67,7 @@ therefore eliminating the need to set them yourself:
 ```HTTP
 Host: desec.io
 Accept: */*
-Content-Length: 72
+Content-Length: xy
 ```
 
 ### Manual Headers
